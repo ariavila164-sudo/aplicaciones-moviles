@@ -27,4 +27,6 @@ formatea centavos v1
 
 dinero.dart version final
 
-![Dark test result panel for a currency formatting function in a Flutter project. The screen displays the Dart test list, with green success icons for valid centavos conversion and a red rejection for invalid input. A narrow side panel and a quiet code-focused environment suggest careful debugging and validation.](image-2.png)
+![alt text][def]
+
+[def]: image-3.png
