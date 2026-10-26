@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "C:/Users/Acer/Desktop/ari/cuatri 4/aplicaciones moviles/UNIDAD2/eco_movimiento/windows",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable"
+}

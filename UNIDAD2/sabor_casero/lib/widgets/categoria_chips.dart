@@ -32,7 +32,7 @@ class CategoriaChips extends StatelessWidget {
             selectedColor: AppTheme.primario,
             backgroundColor: Colors.white,
             side: BorderSide(color: activa ? AppTheme.oscuro : AppTheme.claro),
-            labelStyle: TextStyle(
+            labelStyle: const TextStyle(
               color: AppTheme.texto,
               fontWeight: FontWeight.w600,
             ),
