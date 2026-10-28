@@ -27,6 +27,18 @@ void main() {
       expect(c.lineas.single.cantidad, 2);
       expect(c.totalCentavos, 5000);
     });
+    test('calcula cambio', () {
+      final c = Carrito()..agregar(nieve());
+      expect(c.cambio(5000), 2500);
+    });
+    test('pago insuficiente lanza', () {
+      final c = Carrito()..agregar(nieve());
+      expect(() => c.cambio(1000), throwsA(isA<PagoInsuficienteException>()));
+    });
+    test('carrito vacío no cobra', () {
+      expect(() => Carrito().cambio(100), throwsA(isA<CarritoVacioException>()));
+    });
+
   });
 
   // dentro de main(), nuevo group:

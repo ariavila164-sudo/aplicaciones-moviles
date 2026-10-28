@@ -52,3 +52,23 @@ fallo del desgloce de iva
 carrito version final 
 
 ![alt text](image-8.png)
+
+guarda y busca error 
+
+![alt text](image-9.png)
+
+cobrar descuento error
+
+![alt text](image-10.png)
+
+cobrar descuento validado
+
+![alt text](image-11.png)
+
+pago insuficiente test
+
+![alt text](image-12.png)
+
+corte del dia test
+
+![alt text](image-13.png)
